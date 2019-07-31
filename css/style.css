@@ -1,0 +1,500 @@
+/* line 1, ../../site_bootstrap/scss/_hover_btn_banner.scss */
+#section_banner {
+  display: flex;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.1)), url("../voilier.jpg") no-repeat center;
+}
+
+/* line 10, ../../site_bootstrap/scss/_hover_btn_banner.scss */
+#section_banner .banner {
+  background-color: #ffffffe3;
+  width: 400px;
+  height: 110px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-radius: 3px;
+}
+h1
+{
+  font-family: Arial, sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #193867;
+  margin: 0px;
+  margin-bottom: -10px;
+  padding: 0px;
+}
+.scrolling-box {
+  scroll-behavior: smooth;
+}
+
+
+.banner > p
+{
+  font-family: Arial, sans-serif;
+  font-size: 1.35rem;
+  color: #193867;
+  margin: 0px;
+  margin-bottom: 11px;
+  padding: 0px;
+
+}
+#expertises
+
+{
+  margin-bottom: 100px;
+  margin-top: 100px;
+
+}
+
+#section_city
+{
+  margin-bottom: 100px;
+}
+.h2_section_city
+
+{
+  margin-bottom: 100px;
+
+}
+
+/* line 1, ../../site_bootstrap/scss/_city.scss */
+.card_city {
+  position: relative;
+  height: 250px;
+  color: white;
+  border-radius: 3px;
+}
+
+/* line 8, ../../site_bootstrap/scss/_city.scss */
+.card_city.brest {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.1)), url(../sand.jpg) no-repeat center;
+}
+
+/* line 13, ../../site_bootstrap/scss/_city.scss */
+.card_city.lille {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.1)), url(../telescope.jpg) no-repeat center;
+}
+
+/* line 18, ../../site_bootstrap/scss/_city.scss */
+.card_city.paris {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6) 60%, rgba(0, 0, 0, 0.1)), url(../relay.jpg) no-repeat center;
+}
+
+.card_city.brest:hover 
+{
+cursor: pointer;
+}
+.card_city.lille:hover 
+{
+cursor: pointer;
+}
+.card_city.paris:hover 
+{
+cursor: pointer;
+}
+
+
+/* line 22, ../../site_bootstrap/scss/_city.scss */
+.card_city .card_city_name {
+  position: absolute;
+  font-size: 1.9rem;
+  top: 10px;
+  left: 10px;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+/* line 31, ../../site_bootstrap/scss/_city.scss */
+.card_city .card_city_icon {
+  position: absolute;
+  font-size: 1.9rem;
+  bottom: 0px;
+  right: 5px;
+}
+
+/* line 38, ../../site_bootstrap/scss/_city.scss */
+.card_city .card_city_text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  font-size: 1.3rem;
+}
+
+/* line 1, ../../site_bootstrap/scss/_navbar.scss */
+.fas.fa-anchor {
+  font-size: 1.1rem;
+  color: white;
+}
+
+/* line 6, ../../site_bootstrap/scss/_navbar.scss */
+.ancre {
+  height: 20px;
+  width: 20px;
+  color: white;
+}
+
+/* line 14, ../../site_bootstrap/scss/_navbar.scss */
+.nav_contact {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* line 18, ../../site_bootstrap/scss/_navbar.scss */
+.nav_contact:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hover_nav_expertises:hover
+{
+  cursor: pointer;
+}
+
+/* line 6, ../../site_bootstrap/scss/style.scss */
+body {
+  font-family: 'Cutive Mono', monospace;
+  color: #3c415e;
+  background-color: #dfe2e2;
+  position: relative;
+}
+
+.scrolling-box {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+/* line 13, ../../site_bootstrap/scss/style.scss */
+.card-title
+{
+  font-weight: bold;
+}
+
+/* line 17, ../../site_bootstrap/scss/style.scss */
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-weight: bold;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 30, ../../site_bootstrap/scss/style.scss */
+.modal-title {
+  font-family: 'Cutive Mono', monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 40, ../../site_bootstrap/scss/style.scss */
+h2
+{
+  color: white;
+  height: 45px;
+  background-color: #738598;
+  border-radius: 3px;
+}
+/* line 50, ../../site_bootstrap/scss/style.scss */
+.card_expertises {
+  height: 550px;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+/* line 56, ../../site_bootstrap/scss/style.scss */
+.card-body {
+  margin-bottom: 150px;
+}
+
+/* line 60, ../../site_bootstrap/scss/style.scss */
+.card_button {
+  position: absolute;
+  bottom: 1rem;
+  color: white !important;
+}
+
+.card_button:hover {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/* line 65, ../../site_bootstrap/scss/style.scss */
+.btn, .btn:active {
+  background-color: #738598 !important;
+  border-color: #738598 !important;
+}
+
+/* line 71, ../../site_bootstrap/scss/style.scss */
+.btn:hover {
+  background-color: #dbcc8f;
+  border-color: #afa476;
+  border-width: 2px;
+}
+
+/* line 78, ../../site_bootstrap/scss/style.scss */
+p {
+  font-family: 'Share Tech Mono', monospace;
+}
+.modal_expertises_title
+{
+  padding-left: 22%;
+}
+
+.h2_modal_expertises
+{
+  font-family: Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #193867;
+  width: 100%;
+  background: none;
+  text-transform: uppercase;
+}
+.h3_modal_expertises
+{
+text-decoration: underline;
+margin-top: 20px;
+margin-bottom:30px;
+}
+.modal_card_expertises
+{
+  margin-bottom:30px;
+
+}
+.liste_modal_expertises{
+  text-align:justify;
+  margin-left: -20px;
+}
+.p_modal_expertises
+{
+  text-align:justify;
+  font-family: 'Cutive Mono', monospace;
+  color: #3c415e;
+}
+
+.btn_expertises {
+  background: none !important;
+  border: none !important;
+  font-family: 'Share Tech Mono', monospace;
+  margin: auto;
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #212529;
+}
+.btn_expertises:hover , .btn_expertises:focus
+{
+  text-decoration: none;
+}
+.accordion_expertises
+{
+text-align: center}
+
+.card_header_changement
+{
+  background-color: #e7eaf6;
+}
+.card_header_management
+{
+  background-color: #a2a8d3;
+}
+.card_header_organisation
+{
+  background-color: #38598b;
+}
+.card_header_strategie
+{
+  background-color: #113f67;
+}
+
+.btn_modal_strategie
+{
+  color: white;
+}
+
+.rgpd_style_ns
+{
+margin-bottom: 1rem;
+}
+
+/* line 83, ../../site_bootstrap/scss/style.scss */
+#section_contact {
+  padding-bottom: 40px;
+  margin: auto;
+}
+
+/* line 86, ../../site_bootstrap/scss/style.scss */
+#section_contact p {
+  font-family: 'Cutive Mono', monospace;
+}
+
+/* line 96, ../../site_bootstrap/scss/style.scss */
+.modal_title_contact {
+  padding-left: 22%;
+}
+
+
+
+.modal_articles
+{
+padding-left: 10%;
+padding-right: 10%;
+text-align: justify;
+}
+.h1_modal_articles
+{
+  font-size: 1.4rem;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+.ul_modal_artilcles
+{
+  font-family: 'Share Tech Mono', monospace;
+}
+
+
+.h3_modal_articles
+{font-size: 1.4rem;
+margin-top: 20px;
+margin-bottom:30px;
+}
+
+
+
+
+/* line 100, ../../site_bootstrap/scss/style.scss */
+.modal-header {
+  background-color: #dfe2e2;
+}
+
+.footer_style_ns
+{
+  background-color: #343a40;
+  color: rgba(255,255,255,.5);
+  padding-top: 0.9rem;
+}
+
+.footer_style_ns p
+{
+  font-family: 'Cutive Mono', monospace;
+  font-size: 0.85rem;
+}
+
+.ligne_footer_ns
+{
+  border-top: 1px solid #f8f9fa;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.btn_footer_ns
+{
+  font-size: 1.3rem;
+}
+
+
+
+@media (max-width: 1200px) {
+  /* line 111, ../../site_bootstrap/scss/style.scss */
+.card_expertises {
+  height: 700px;
+}
+
+.card_city.brest , .card_city.lille , .card_city.paris 
+{
+  height: 300px;
+}
+
+}
+
+
+@media (max-width: 1000px) 
+{
+
+  .h2_modal_expertises
+  {
+    margin-bottom: 120px;
+  }
+  .bd-example-modal-lg img
+  {
+    display: none;
+  }
+}
+@media (max-width: 768px) 
+{
+  /* line 134, ../../site_bootstrap/scss/style.scss */
+.card_expertises {
+  height: 700px;
+}
+}
+
+@media (max-width: 576px) {
+  /* line 145, ../../site_bootstrap/scss/style.scss */
+  #section_banner {
+    background: none;
+    height: unset;
+    padding-top: 70px;
+  }
+  .banner > h1, .banner >  p
+  {
+    color: white;
+  }
+
+  .modal-title {
+    padding-left: 20%;
+  }
+
+  /* line 150, ../../site_bootstrap/scss/style.scss */
+  #section_banner .banner {
+    background-color: #3c415e;
+    color: white;
+    width: 95%;
+
+  }
+  .card_expertises {
+    height: 700px;
+  }
+
+  /* line 156, ../../site_bootstrap/scss/style.scss */
+}
+@media (max-width: 423px) 
+{
+  #section_banner .banner 
+  {
+   height: 40vh;
+  }
+  .card_expertises 
+  {
+    height: 550px;
+  }
+  .h2_modal_expertises
+  {
+    margin-bottom: 210px;
+  }
+  .bd-example-modal-lg
+  {
+    text-justify: none;
+  }
+
+}
+
+/*# sourceMappingURL=style.css.map */
